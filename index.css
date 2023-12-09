@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color: rgb(45, 88, 101);
+
+}
+.header{
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background: rgb(49, 95, 125);
+   
+
+}
+.nav-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    padding-top: 8px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+ul{
+    list-style: none;
+}
+.nav-box .nav{
+    display: flex;
+    font-size: 15px; 
+}
+a{
+    color:#000000;
+    text-decoration: none;
+   
+}
+.nav-box .nav li{
+    padding-left: 40px;
+}
+.nav-box .nav a.on,
+.nav-box .nav a:hover{
+    color:#000000;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.banner{
+    width: 1200px;
+    margin:0 auto;
+    background: url(/image/10937.jpg) no-repeat center center;
+    height: 312px;
+}
+.banner3{
+    margin:0 auto;
+    background: url(image/india-8181841_1280.webp) no-repeat center center;
+    height: 300px;
+    width: 1200px;
+}
+.introduce-main{
+    display: flex;
+}
+.title{
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-shadow: #ddd;
+    color: rgb(255, 255, 255);
+}
+.introduce{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+}
+.introduce .Left{
+    margin-right: 180px;
+    margin-left: 100px;
+    
+}
+.introduce .Left img{
+    border-radius: 50%;
+}
+.introduce .Middle{
+    
+    line-height: 50px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border:3px solid rgb(35, 96, 129);
+    padding: 15px;
+   
+
+}
+.introduce .Right{
+    line-height: 50px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+   line-height: 30px;
+   text-indent:1em;
+   border:3px solid rgb(35, 96, 129);
+   padding: 15px;
+
+}
+.title2{
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-shadow: #ddd;
+    color: rgb(255, 255, 255);
+}
+.Home .ima{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.introduce .Left img.code{
+    border-radius:0;
+}
+.input-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.Myform{
+    margin-top: 50px;
+}
