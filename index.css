@@ -24,7 +24,7 @@ body{
     height: 20px;
     padding-top: 8px;
     font-size: 20px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-weight: bold;
 
 }
@@ -36,7 +36,7 @@ ul{
     font-size: 15px; 
 }
 a{
-    color:#000000;
+    color:#ffffff;
     text-decoration: none;
    
 }
@@ -45,15 +45,22 @@ a{
 }
 .nav-box .nav a.on,
 .nav-box .nav a:hover{
-    color:#000000;
+    color:#ffffff;
     padding-bottom: 5px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 .banner{
     width: 1200px;
     margin:0 auto;
     background: url(/image/10937.jpg) no-repeat center center;
     height: 312px;
+}
+.banner2{
+    margin:0 auto;
+    background: url(image/bc8abb8968a04dc7aa6405ce16f99c42.jpeg) no-repeat center center;
+    height: 300px;
+    width: 1200px;
+
 }
 .banner3{
     margin:0 auto;
@@ -91,17 +98,24 @@ a{
     
     line-height: 50px;
     font-size: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border:3px solid rgb(35, 96, 129);
     padding: 15px;
    
 
 }
+.introduce  .contactinfo{
+    
+    line-height: 50px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
 .introduce .Right{
     line-height: 50px;
     font-size: 15px;
-    color: rgb(0, 0, 0);
-    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
    line-height: 30px;
    text-indent:1em;
    border:3px solid rgb(35, 96, 129);
@@ -130,8 +144,84 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
+    min-height: 80px;
 }
 .Myform{
     margin-top: 50px;
+}
+.input{
+    flex:1;
+    margin: 0 20px;
+    height: 40px;
+    text-indent: 10px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+
+    
+}
+.msg{
+    flex: 1;
+    margin:0 20px;
+    border:1px solid #ddd;
+    line-height: 24px;
+    text-indent: 10px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.but{
+    margin: 20px;
+    width: 150px;
+    height: 34px;
+    line-height: 34px;
+    border:none;
+    color:#ddd;
+    text-align: center;
+    background: #000000;
+    cursor: pointer;
+}
+.but:hover{
+    opacity:0.8;
+}
+.main-box{
+    width:100px;
+    margin: 20px auto;
+}
+.flex-box{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    overflow:hidden;
+}
+.block{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.text{
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    top:0;
+    left:0;
+    width: 100%;
+    bottom:0;
+    cursor:pointer;
+    background: rgba(0,0,0,0.3);
+    transition: opacity 0.5s ease-in;
+    color:#ddd;
+    font-size: 16px;
+    text-align: center;
+    line-height: 300px;
+    font-weight: 600;
+}
+.block:hover .text{
+    opacity: 1;
+}
+.block:hover img{
+    transform:scale(1.2);
+}
+.block .pic{
+    transition: all 0.3s ease-in;
 }
